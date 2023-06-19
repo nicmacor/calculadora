@@ -18,7 +18,7 @@ let funcionPredeterminada = () =>{
 
 
         let resultado = parseInt(valorPorHora)* (parseInt(interfazHoras) + parseInt(testingHoras) + parseInt(estilizacionHoras) + parseInt(desarrolloHoras));
-        resultado = resultado +"$"
+        resultado = resultado +"$";
         document.getElementById("valorTotal").value = resultado;
 
     })
