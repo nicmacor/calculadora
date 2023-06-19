@@ -10,12 +10,15 @@ let funcionPredeterminada = () =>{
 
         let interfazHoras= document.getElementById('interfazHoras').value
 
+        let testingHoras= document.getElementById('testingHoras').value
+
         let estilizacionHoras= document.getElementById('estilizacionHoras').value
 
         let desarrolloHoras= document.getElementById('desarrolloHoras').value
 
 
         let resultado = (valorPorHora * interfazHoras) + (valorPorHora * testingHoras) + (valorPorHora * estilizacionHoras) + (valorPorHora * desarrolloHoras)
+
     })
 }
 
