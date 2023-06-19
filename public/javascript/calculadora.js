@@ -19,4 +19,4 @@ let funcionPredeterminada = () =>{
     })
 }
 
-funcionPredeterminada
+funcionPredeterminada();
