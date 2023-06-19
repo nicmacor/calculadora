@@ -6,18 +6,20 @@ let funcionPredeterminada = () =>{
 
         evento.preventDefault();
 
-        let valorPorHora = document.getElementById('valorPorHora').value
+        let valorPorHora = document.getElementById('valorPorHora').value;
 
-        let interfazHoras= document.getElementById('interfazHoras').value
+        let interfazHoras= document.getElementById('interfazHoras').value;
 
-        let testingHoras= document.getElementById('testingHoras').value
+        let testingHoras= document.getElementById('testingHoras').value;
 
-        let estilizacionHoras= document.getElementById('estilizacionHoras').value
+        let estilizacionHoras= document.getElementById('estilizacionHoras').value;
 
-        let desarrolloHoras= document.getElementById('desarrolloHoras').value
+        let desarrolloHoras= document.getElementById('desarrolloHoras').value;
 
 
-        let resultado = (valorPorHora * interfazHoras) + (valorPorHora * testingHoras) + (valorPorHora * estilizacionHoras) + (valorPorHora * desarrolloHoras)
+        let resultado = parseInt(valorPorHora)* (parseInt(interfazHoras) + parseInt(testingHoras) + parseInt(estilizacionHoras) + parseInt(desarrolloHoras))
+
+        document.getElementById("valorTotal").value = resultado;
 
     })
 }
