@@ -18,3 +18,5 @@ let funcionPredeterminada = () =>{
         let resultado = (valorPorHora * interfazHoras) + (valorPorHora * testingHoras) + (valorPorHora * estilizacionHoras) + (valorPorHora * desarrolloHoras)
     })
 }
+
+funcionPredeterminada
